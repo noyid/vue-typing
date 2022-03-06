@@ -1,0 +1,32 @@
+{
+  "name": "@noyid/vue-typing",
+  "main": "lib/vue.typing.umd.js",
+  "version": "0.0.1",
+  "repository": "https://github.com/noyid/vue-typing",
+  "author": "noyid",
+  "keywords": [
+    "typing",
+    "vue",
+    "vuejs",
+    "component"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib":"vue-cli-service build --target lib  --dest lib --name typing src/Typing/index.vue"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
